@@ -1,1 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.color1{color: #ecece9;}
+.color2{color: #1d1d1d;}
+
+.bg-blanco{background-color: #ecece9;}
+.bg-oscuro{background-color: #242320;}
+.bg-image{
+    background-image: url(../assets/Background-header/richard-horvath-O96QaASSRcg-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.height-ArgProg{
+    height: 150px;
+}
+
+.sin-deco{
+    text-decoration: none;
+}
+
+.mp-0{
+    margin: 0cm;
+    padding: 0cm;
+}
+.z-index{
+    z-index: -1;
+}
