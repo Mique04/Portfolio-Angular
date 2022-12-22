@@ -7,7 +7,7 @@
 .bg-blanco{background-color: #ecece9;}
 .bg-oscuro{background-color: #242320;}
 .bg-image{
-    background-image: url(../assets/Background-header/richard-horvath-O96QaASSRcg-unsplash.jpg);
+    background-image: url(assets/Background-header/richard-horvath-O96QaASSRcg-unsplash.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
