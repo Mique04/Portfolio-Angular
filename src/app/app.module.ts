@@ -6,6 +6,8 @@ import { HeaderComponent } from './Components/header/header.component';
 import { ProyectosComponent } from './Components/proyectos/proyectos.component';
 import { EducacionHabilidadesComponent } from './Components/educacion-habilidades/educacion-habilidades.component';
 import { ContactoComponent } from './Components/contacto/contacto.component';
+import { AlertIngreseDatosComponent } from './Components/alert-ingrese-datos/alert-ingrese-datos.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -13,10 +15,12 @@ import { ContactoComponent } from './Components/contacto/contacto.component';
     HeaderComponent,
     ProyectosComponent,
     EducacionHabilidadesComponent,
-    ContactoComponent
+    ContactoComponent,
+    AlertIngreseDatosComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

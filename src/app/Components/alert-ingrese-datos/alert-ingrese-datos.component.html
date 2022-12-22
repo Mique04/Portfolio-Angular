@@ -1,0 +1,10 @@
+<div class="body">
+    <form action="post">
+        <h3>{{title}}</h3>
+        <input type="text" name="Nombre" [(ngModel)]="nombre" placeholder="Nombre" required="required"/><br>
+        <input type="email" name="Email" placeholder="Email"/><br>
+        <input type="submit" value="Enviar" (click)="RegistroExitoso()">
+    </form>
+</div>
+
+<p *ngIf="Registro">{{nombre}}, {{mensaje}}</p>
