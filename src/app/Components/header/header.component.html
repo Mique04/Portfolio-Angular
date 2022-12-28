@@ -3,15 +3,25 @@
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html"><img src="../../../assets/Logo.png" alt="Logo" style="max-height: 35px;"></a>
         <div class="d-flex font-monospace">
-            <h6><a class="sin-deco color2 px-3 fw-semibold" href="#Proyectos">Proyectos</a></h6>
-            <h6><a class="sin-deco color2 px-3 fw-semibold" href="#Educacion">Educación</a></h6>
-            <h6><a class="sin-deco color2 px-3 fw-semibold" href="#Habilidades">Habilidades</a></h6>
-            <h6><a class="sin-deco color2 ps-3 fw-semibold" href="#Contacto">Contacto</a></h6>
+          <div class="dropdown">
+            <button class="btn btn-dark color1 dropdown-toggle mx-1" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Secciones
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#Proyectos">Proyectos</a></li>
+              <li><a class="dropdown-item" href="#Educacion">Educación</a></li>
+              <li><a class="dropdown-item" href="#Habilidades">Habilidades</a></li>
+              <li><a class="dropdown-item" href="#Contacto">Contacto</a></li>
+            </ul>
+          </div>
+          <app-alert-ingrese-datos></app-alert-ingrese-datos>
         </div>
       </div>
     </nav>
-    <header class="color1 w-50 m-5 pt-5">
-      <h1 class="fw-semibold mb-2">Miqueas Santillán</h1>
+
+
+    <header class="color1 w-50 mt-5 mx-5 pt-5">
+      <h1 class="fw-semibold mb-2 title-gradient font-monospace">MIQUEAS SANTILLÁN</h1>
       <h3 class="fst-italic">Desarrollador Web</h3>
       <h4 class="fw-lighter fst-italic mb-5">Full Stack</h4>
       <p class="mt-5 pe-5 w-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum expedita quo architecto vero deserunt quam ea iure. Eos magni eius reiciendis saepe! Voluptate, assumenda officia!</p>

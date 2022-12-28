@@ -8,15 +8,8 @@ import { Component } from '@angular/core';
 })
 export class AlertIngreseDatosComponent {
   title= "Ingrese sus datos"
-  mensaje= ""
-  Registro= false
-  nombre:string=""
 
-  RegistroExitoso() {
-    this.Registro=true
-    this.mensaje= "te has registrado con exito"
-  }
-  sinRegistrar() {
-    this.mensaje= "Ha ocurrido un error, vuelve a intentarlo"
-  }
+  username = document.getElementById('username')
+  password = document.getElementById('password')
+  button = document.getElementById('button')
 }

@@ -1,10 +1,26 @@
-<div class="body">
-    <form action="post">
-        <h3>{{title}}</h3>
-        <input type="text" name="Nombre" [(ngModel)]="nombre" placeholder="Nombre" required="required"/><br>
-        <input type="email" name="Email" placeholder="Email"/><br>
-        <input type="submit" value="Enviar" (click)="RegistroExitoso()">
-    </form>
-</div>
-
-<p *ngIf="Registro">{{nombre}}, {{mensaje}}</p>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-dark color1 mx-1" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+    Iniciar Sesión
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <form action="" class="d-flex flex-column">
+            <h1 class="title">Ingrese</h1>
+            <label>
+                <i class="bi bi-person-fill"></i>
+                <input placeholder="username" type="email" id="username">
+            </label>
+            <label>
+                <i class="bi bi-lock-fill"></i>
+                <input placeholder="password" type="password" id="password">
+            </label>
+            <a href="#" class="link">¿No recuerdas tu contraseña?</a>
+    
+            <button id="button">Ingresar</button>
+        </form>
+      </div>
+    </div>
+  </div>
