@@ -2,25 +2,53 @@ body {
     background-color: #ecece9;
 }
 
-*{
-    font-family: 'Inconsolata', monospace;
+
+/* Fuentes de letras */
+* {
+    font-family: 'Inter', sans-serif;
 }
+
+.title-lyric {
+    font-family: 'League Spartan', sans-serif !important;
+}
+/* .................... */
+
+
+
+
+
+
+
+/* Colores */
 .color1{color: #ecece9;}
-.color2{color: #1d1d1d;}
+.color2{color: #1a1a1a;}
 
 .bg-blanco{background-color: #ecece9;}
 .bg-oscuro{background-color: #242320;}
+
+
 .bg-image{
     background-image: url(assets/Background-header/richard-horvath-O96QaASSRcg-unsplash.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    height: 700px;
 }
 
-.height-ArgProg{
-    height: 150px;
+.color-gradient {
+    background: rgb(255, 136, 75);
+    background: linear-gradient(18deg, rgb(255, 136, 75) 0%, rgb(255, 87, 127) 100%);
 }
 
+/* .................... */
+
+
+
+
+
+
+
+/* Extras */
 .sin-deco{
     text-decoration: none;
 }
@@ -33,18 +61,6 @@ body {
     z-index: -1;
 }
 
-.title-gradient {
-    color: transparent;
-    background: rgb(255,63,147);
-    font-family: 'IM Fell French Canon', serif;
-    background: radial-gradient(circle, rgba(255,63,147,1) 0%, rgba(255,168,27,1) 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-
+.big {
+    font-size: 70px;
 }
-
-.color-gradient {
-    background: rgb(255,168,27);
-    background: linear-gradient(18deg, rgba(255,168,27,1) 0%, rgba(255,63,147,1) 100%);
-}
-

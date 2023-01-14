@@ -9,6 +9,8 @@ import { AlertIngreseDatosComponent } from './Components/alert-ingrese-datos/ale
 import { FormsModule } from '@angular/forms';
 import { HabilidadesComponent } from './Components/habilidades/habilidades.component';
 import { EducacionComponent } from './Components/educacion/educacion.component';
+import { NavBarComponent } from './Components/nav-bar/nav-bar.component';
+import { CarouselComponent } from './Components/carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +21,8 @@ import { EducacionComponent } from './Components/educacion/educacion.component';
     AlertIngreseDatosComponent,
     HabilidadesComponent,
     EducacionComponent,
+    NavBarComponent,
+    CarouselComponent,
   ],
   imports: [
     BrowserModule,

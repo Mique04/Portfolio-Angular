@@ -1,0 +1,26 @@
+.title-gradient {
+    color: transparent;
+    background: rgb(255, 87, 127);
+    background: radial-gradient(circle, rgb(255, 87, 127) 0%, rgb(255, 136, 75) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 65px;
+}
+
+.flecha {
+    top: 625px;
+    left: 25px;
+}
+
+@media (max-width: 720px) {
+    .centrar {
+      text-align: center;
+    }
+    .flecha {
+        top: 90%;
+        left: 50%;
+    }
+    .bg-image {
+        background-position: -500px;
+    }
+  }

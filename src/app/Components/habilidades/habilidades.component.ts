@@ -1,3 +1,4 @@
+import { NgIf } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,5 +7,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./habilidades.component.css']
 })
 export class HabilidadesComponent {
-
 }
