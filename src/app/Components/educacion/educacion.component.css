@@ -1,11 +1,13 @@
-.bg-educacion {
-    background: rgb(255, 136, 75);
-    background: linear-gradient(90deg, rgb(255, 136, 75) 40%, rgb(255, 87, 127) 100%);
-    clip-path: polygon(75% 10%, 90% 50%, 75% 90%, 5% 90%, 20% 50%, 5% 10%);
-}
-
 img {
     height: 60px;
+}
+
+.img-educacion {
+    height: 400px;
+}
+
+.bg-educacion {
+    background-color: #1b1b1b;
 }
 
 .SSTA {

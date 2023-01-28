@@ -9,7 +9,7 @@ body {
 }
 
 .title-lyric {
-    font-family: 'League Spartan', sans-serif !important;
+    font-family: 'Source Sans Pro', sans-serif!important;
 }
 /* .................... */
 
@@ -20,27 +20,15 @@ body {
 
 
 /* Colores */
-.color1{color: #ecece9;}
-.color2{color: #1a1a1a;}
+.color1{color: #e2dfda;}
+.color2{color: #212121;}
+.color3{color: #404258;}
+.color4{color: #678983;}
 
-.bg-blanco{background-color: #ecece9;}
-.bg-oscuro{background-color: #242320;}
-
-
-.bg-image{
-    background-image: url(assets/Background-header/richard-horvath-O96QaASSRcg-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    height: 700px;
-}
-
-.color-gradient {
-    background: rgb(255, 136, 75);
-    background: linear-gradient(18deg, rgb(255, 136, 75) 0%, rgb(255, 87, 127) 100%);
-}
-
-/* .................... */
+.bg-blanco{background-color: #e2dfda;}
+.bg-oscuro{background-color: #212121;}
+.bg-3{background-color: #404258;}
+.bg-4{background-color: #678983;}
 
 
 
@@ -59,8 +47,4 @@ body {
 }
 .z-index{
     z-index: -1;
-}
-
-.big {
-    font-size: 70px;
 }
